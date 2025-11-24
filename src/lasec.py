@@ -13,7 +13,7 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument('--output_dir', type=str, default='grid-search',
                     help="Folder to store the experimental results. Default: experiments")
-parser.add_argument('--dataset_type', type=str, default='sample',
+parser.add_argument('--dataset_type', type=str, default='sample', # sample means the 80% sample, full means the full 2k dataset
                     help="Dataset to run, between sample or full. Default: sample")
 parser.add_argument('--dataset', choices=['Apache', 'Drone', 'DroneOvs', 'Android', 'BGL', 'Hadoop', 'HDFS', 'HealthApp', 'HPC', 'Linux', 'Mac', 'OpenSSH', 'OpenStack', 'Proxifier', 'Spark', 'Thunderbird', 'Windows', 'Zookeeper', 'MultiSource', 'MultiUnique'], default='Drone',
                     help="Dataset to test. Default: drone")
@@ -49,24 +49,25 @@ def set_seed(seed: int = 42) -> None:
     print(f"Random seed set as {seed}")
 
 # swardiantara/MultiSource-full-cdk0-m0.5-e5-b128-L6
+# swardiantara/MultiSource-partial-cdk3-m0.5-e5-b128-L6
 # only when using fine-tuned embedding model
-def get_heldout_sample(model_path: str, source_name: str, source_sample: pd.DataFrame) -> pd.DataFrame:
+def get_heldout_sample(source_sample: pd.DataFrame, source_name: str, model_path: str="MultiSource-partial-cdk3-m0.5-e5-b128-L6") -> pd.DataFrame:
     initial_model = 'all-MiniLM-L6-v2' if model_path.split('-')[-1] == 'L6' else 'all-MiniLM-L12-v2'
     dataset = "-".join(model_path.split("-")[:2])  # MultiSource-full
     sampling_strategy = 'random' if model_path.split('-')[1][1] == 'r' else 'distance'
-    num_sample = model_path.split('-')[2][2:]
+    num_sample = model_path.split('-')[2][2:] # k0, k3, etc.
 
     if num_sample == "k0":
         print("No training samples needed for k0 setting. Use all samples for testing.")
         return source_sample
     
-    held_out_dir = os.path.join('dataset_heldout', source_name, f"{sampling_strategy}-{num_sample}")
+    held_out_dir = os.path.join('dataset_heldout')
     os.makedirs(held_out_dir, exist_ok=True)
-    held_out_file = os.path.join(held_out_dir, f'heldout_{sampling_strategy}_{num_sample}.xlsx')
+    held_out_file = os.path.join(held_out_dir, f'{dataset}_2k.log_structured.csv')
 
     if os.path.exists(held_out_file):
         print(f"Held out dataset is found in {held_out_file}")
-        test_sample = pd.read_excel(held_out_file)
+        test_sample = pd.read_csv(held_out_file)
     else:
         # embeddings/MultiSource-full/all-MiniLM-L6-v2/random-k1/random_k1_selected_sample.xlsx
         training_file_path = os.path.join('embeddings', dataset, initial_model, f"{sampling_strategy}-{num_sample}", f'{sampling_strategy}_{num_sample}_selected_sample.xlsx')
@@ -82,7 +83,11 @@ def get_heldout_sample(model_path: str, source_name: str, source_sample: pd.Data
         for content in train_source['Content'].to_list():
             index_to_remove = test_sample[test_sample['message'] == content].index
             test_sample.drop(index_to_remove, inplace=True)
-        test_sample.to_excel(held_out_file, index=False)
+        if not source_name.startswith('Multi'):
+            test_sample = test_sample[['Content', 'EventId', 'EventTemplate']]
+        test_sample.reset_index(drop=True, inplace=True)
+        test_sample.to_csv(held_out_file, index=False)
+
     return test_sample
 
 
@@ -104,23 +109,23 @@ def main():
     if args.dataset_type == 'sample':
         if args.dataset == 'Drone':
             dataset = pd.read_csv(os.path.join('dataset', 'Drone_584.log_structured.csv')).sort_values(by='Content', ascending=sample_order).reset_index(drop=True)
-            dataset.rename(columns = {'Content': 'message', 'EventId': 'cluster_id'}, inplace = True)
-            labels_true = dataset['cluster_id'].to_list()
+            # dataset.rename(columns = {'Content': 'message', 'EventId': 'cluster_id'}, inplace = True)
+            # labels_true = dataset['cluster_id'].to_list()
         elif args.dataset == 'DroneOvs':
             dataset = pd.read_csv(os.path.join('dataset', 'DroneOvs_815.log_structured.csv')).sort_values(by='Content', ascending=sample_order).reset_index(drop=True)
-            dataset.rename(columns = {'Content': 'message', 'EventId': 'cluster_id'}, inplace = True)
-            labels_true = dataset['cluster_id'].to_list()
-        elif str(args.dataset).startswith('Multi'):
-            dataset = pd.read_csv(os.path.join('dataset', f'{args.dataset}_2k.log_structured.csv')).sort_values(by='Content', ascending=sample_order).reset_index(drop=True)
-            dataset.rename(columns = {'Content': 'message'}, inplace = True)
-            dataset['cluster_id'] = dataset['Source'] + "-" + dataset['EventId']
+            # dataset.rename(columns = {'Content': 'message', 'EventId': 'cluster_id'}, inplace = True)
+            # labels_true = dataset['cluster_id'].to_list()
+        # elif str(args.dataset).startswith('Multi'):
+        #     dataset = pd.read_csv(os.path.join('dataset', f'{args.dataset}_2k.log_structured.csv')).sort_values(by='Content', ascending=sample_order).reset_index(drop=True)
+        #     # dataset.rename(columns = {'Content': 'message'}, inplace = True)
+        #     dataset['cluster_id'] = dataset['Source'] + "-" + dataset['EventId']
         elif args.sample_size == 2000:
             dataset = pd.read_csv(os.path.join('dataset', f'{args.dataset}_2k.log_structured.csv')).sort_values(by='Content', ascending=sample_order).reset_index(drop=True)
-            dataset.rename(columns = {'Content': 'message', 'EventId': 'cluster_id'}, inplace = True)
-            labels_true = dataset['cluster_id'].to_list()
+            # dataset.rename(columns = {'Content': 'message', 'EventId': 'cluster_id'}, inplace = True)
+            # labels_true = dataset['cluster_id'].to_list()
         elif args.sample_size > 2000:
             dataset = pd.read_csv(os.path.join('dataset_efficiency', f'{args.dataset}_{args.sample_size}.log_structured.csv')).sort_values(by='Content', ascending=sample_order).reset_index(drop=True)
-            dataset.rename(columns = {'Content': 'message', 'EventId': 'cluster_id'}, inplace = True)
+            # dataset.rename(columns = {'Content': 'message', 'EventId': 'cluster_id'}, inplace = True)
     elif args.dataset_type == 'full' and args.sample_size != 2000: # efficiency test first time
         dataset = pd.read_csv(os.path.join('dataset', f'{args.dataset}_2k.log_structured.csv')).sort_values(by='Content', ascending=sample_order).reset_index(drop=True).sample(args.sample_size, random_state=args.seed, replace=True)
         out_dir = os.path.join('dataset_efficiency', f'{args.dataset}-{str(args.sample_size)}')
@@ -129,17 +134,18 @@ def main():
         with open(os.path.join(out_dir, f'{args.dataset}_{str(args.sample_size)}.log'), 'w') as f:
             f.write('\n'.join(dataset['Content'].to_list()))
         dataset.drop_duplicates('EventId')[['EventId', 'EventTemplate']].to_csv(os.path.join(out_dir, f'{args.dataset}_{str(args.sample_size)}.log_templates.csv'), index=False)
-        dataset.rename(columns = {'Content': 'message', 'EventId': 'cluster_id'}, inplace = True)
 
     
-    if args.held_out:
-        dataset = get_heldout_sample(args.embedding, args.dataset, dataset).sort_values(by='message', ascending=sample_order).reset_index(drop=True)
-    
-    if args.held_out:
-        dataset_scenario = f"HO-{args.dataset}-{str(args.sample_size)}" if args.sample_size > 2000 else f"HO-{args.dataset}"
+    if args.held_out: # use this param to indicate whether using LOSO or MultiSource-full
+        # swardiantara/MultiSource-partial-cdk3-m0.5-e5-b128-L6
+        args.embedding = f"{args.dataset}-loso-cdk3-m0.5-e5-b128-L6"
+        # dataset = get_heldout_sample(dataset, args.dataset).sort_values(by='Content', ascending=sample_order).reset_index(drop=True)
+        # dataset_scenario = f"HO-{args.dataset}-{str(args.sample_size)}" if args.sample_size > 2000 else f"HO-{args.dataset}"
+        dataset_scenario = f"{args.dataset}-{str(args.sample_size)}" if args.sample_size > 2000 else args.dataset
     else:
         dataset_scenario = f"{args.dataset}-{str(args.sample_size)}" if args.sample_size > 2000 else args.dataset
 
+    dataset.rename(columns = {'Content': 'message', 'EventId': 'cluster_id'}, inplace = True)
     model_scenario = args.model
     if args.model == 'agglomerative':
         model_scenario = f"{args.model}-{args.linkage}"
