@@ -138,7 +138,7 @@ def main():
     
     if args.held_out: # use this param to indicate whether using LOSO or MultiSource-full
         # swardiantara/MultiSource-partial-cdk3-m0.5-e5-b128-L6
-        args.embedding = f"{args.dataset}-loso-cdk3-m0.5-e5-b128-L6"
+        args.embedding = f"{args.dataset}-loso-crk2-m0.5-e5-b128-L6"
         # dataset = get_heldout_sample(dataset, args.dataset).sort_values(by='Content', ascending=sample_order).reset_index(drop=True)
         # dataset_scenario = f"HO-{args.dataset}-{str(args.sample_size)}" if args.sample_size > 2000 else f"HO-{args.dataset}"
         dataset_scenario = f"{args.dataset}-{str(args.sample_size)}" if args.sample_size > 2000 else args.dataset
