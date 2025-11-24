@@ -113,7 +113,7 @@ def main():
             train_path = os.path.join("embeddings", "MultiSource-partial", "all-MiniLM-L6-v2", "distance-k3", "distance_k3_selected_sample.xlsx") # for now static
             dataset = train_data = pd.read_excel(train_path)
     elif args.template_portion == 'loso': # leave-one-source-out
-        dataset = dataset[~dataset['Source'] == args.dataset]
+        dataset = dataset[dataset['Source'] != args.dataset]
 
 
     start_time = time.time()
