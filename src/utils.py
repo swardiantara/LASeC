@@ -36,15 +36,16 @@ def get_embedding(embedding):
     return embedding_model, tokenizer
 
 
-def get_features(dataset, embedding, device, normalize_embeddings=False):
+def get_features(dataset, embedding, device, normalize_embeddings=True):
     corpus = dataset['message'].to_list()
+    embedding_tokens = str(embedding).split('-')
     if embedding == 'sbert':
         embedding_model = SentenceTransformer('all-mpnet-base-v2')
         corpus_embeddings = embedding_model.encode(corpus)
     elif str(embedding).startswith('all'):
         embedding_model = SentenceTransformer(embedding)
         corpus_embeddings = embedding_model.encode(corpus, normalize_embeddings=normalize_embeddings)
-    elif str(embedding).startswith('one') or str(embedding).startswith('two') or str(embedding).startswith('Multi'):
+    elif str(embedding).startswith('Multi') or embedding_tokens[1] == 'loso':
         embedding_model = SentenceTransformer(f'swardiantara/{embedding}')
         corpus_embeddings = embedding_model.encode(corpus, normalize_embeddings=normalize_embeddings)
     elif embedding == 'drone-sbert':
@@ -134,10 +135,11 @@ def evaluation_score(true_df: pd.DataFrame, pred_df: pd.DataFrame, sample_order)
 
 
 def compute_distance_matrix(corpus_embeddings, is_norm=True):
-    if is_norm:
-        corpus_embeddings = corpus_embeddings /  np.linalg.norm(corpus_embeddings, axis=1, keepdims=True)
-
-    distance_matrix = pairwise_distances(corpus_embeddings, corpus_embeddings, metric='cosine')
+    # if is_norm:
+    #     corpus_embeddings = corpus_embeddings /  np.linalg.norm(corpus_embeddings, axis=1, keepdims=True)
+    cos_sim_matrix = corpus_embeddings @ corpus_embeddings.T
+    distance_matrix = 1 - cos_sim_matrix
+    # distance_matrix = pairwise_distances(corpus_embeddings, corpus_embeddings, metric='cosine')
     return distance_matrix
 
 

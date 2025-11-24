@@ -163,10 +163,12 @@ def main():
                     return 0
     else:
         os.makedirs(workdir, exist_ok=True)
-
+    emb_started_at = datetime.datetime.now()
     corpus_embeddings = get_features(dataset, args.embedding, device, args.normalize_embedding)
-    clustering_model = get_model(args)
+    emb_ended_at = datetime.datetime.now()
 
+    cluster_started_at = datetime.datetime.now()
+    clustering_model = get_model(args)
     if args.model == 'agglomerative':
         distance_matrix = compute_distance_matrix(corpus_embeddings)
         clustering_model.fit(distance_matrix)
@@ -178,10 +180,18 @@ def main():
     train_end_at = datetime.datetime.now()
 
     arguments_dict = vars(args)
-    duration = train_end_at - train_started_at
+    train_duration = train_end_at - train_started_at
+    emb_duration = emb_ended_at - emb_started_at
+    cluster_duration = train_end_at - cluster_started_at
+    arguments_dict['emb_started_at'] = str(emb_started_at)
+    arguments_dict['emb_ended_at'] = str(emb_ended_at)
+    arguments_dict['emb_duration'] = str(round(emb_duration.total_seconds() * 1000, 5)) + ' miliseconds'
+    arguments_dict['cluster_started_at'] = str(cluster_started_at)
+    arguments_dict['cluster_ended_at'] = str(train_end_at)
+    arguments_dict['cluster_duration'] = str(round(cluster_duration.total_seconds() * 1000, 5)) + ' miliseconds'
     arguments_dict['train_started_at'] = str(train_started_at)
     arguments_dict['train_end_at'] = str(train_end_at)
-    arguments_dict['duration'] = str(round(duration.total_seconds() * 1000, 5)) + ' miliseconds'
+    arguments_dict['train_duration'] = str(round(train_duration.total_seconds() * 1000, 5)) + ' miliseconds'
     pred_df = pd.DataFrame()
 
     eval_start_at = datetime.datetime.now()
