@@ -245,18 +245,18 @@ if __name__ == "__main__":
     analyzer = LogEmbeddingAnalyzer(os.path.join('dataset', 'MultiUnique_2k.log_structured.csv'))
     
     # Scenario 1: Pre-trained baseline (no fine-tuning)
-    analyzer.analyze_embedding(
-        'sentence-transformers/all-MiniLM-L6-v2',
-        k_value='pretrained',
-        strategy=None
-    )
+    # analyzer.analyze_embedding(
+    #     'sentence-transformers/all-MiniLM-L6-v2',
+    #     k_value='pretrained',
+    #     strategy=None
+    # )
     
-    # Scenario 2: k=0 (fine-tuned without sampling strategy)
-    analyzer.analyze_embedding(
-        'swardiantara/MultiSource-full-crk0-m0.5-e5-b128-L6',
-        k_value=0,
-        strategy=None
-    )
+    # # Scenario 2: k=0 (fine-tuned without sampling strategy)
+    # analyzer.analyze_embedding(
+    #     'swardiantara/MultiSource-full-crk0-m0.5-e5-b128-L6',
+    #     k_value=0,
+    #     strategy=None
+    # )
     
     # Scenarios 3-12: k=1,2,3,5,10 with random and informed strategies
     k_values = [1, 2, 3, 5, 10]
