@@ -242,7 +242,7 @@ class LogEmbeddingAnalyzer:
 # Example usage
 if __name__ == "__main__":
     # Initialize analyzer with your log data
-    analyzer = LogEmbeddingAnalyzer(os.path.join('dataset', 'MultiSource_2k.log_structured.csv'))
+    analyzer = LogEmbeddingAnalyzer(os.path.join('dataset', 'MultiUnique_2k.log_structured.csv'))
     
     # Scenario 1: Pre-trained baseline (no fine-tuning)
     analyzer.analyze_embedding(
