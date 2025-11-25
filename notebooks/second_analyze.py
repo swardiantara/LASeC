@@ -286,39 +286,53 @@ class LogEmbeddingAnalyzer:
 if __name__ == "__main__":
     # Initialize analyzer with your log data
     analyzer = LogEmbeddingAnalyzer(os.path.join('dataset', 'MultiUnique_2k.log_structured.csv'))
-    
-    # Scenario 1: Pre-trained baseline (no fine-tuning)
-    analyzer.analyze_embedding(
-        'sentence-transformers/all-MiniLM-L6-v2',
-        k_value='pretrained',
-        strategy=None
-    )
-    
-    # Scenario 2: k=0 (fine-tuned without sampling strategy)
-    analyzer.analyze_embedding(
-        'swardiantara/MultiSource-full-crk0-m0.5-e5-b128-L6',
-        k_value=0,
-        strategy=None
-    )
-    
-    # Scenarios 3-12: k=1,2,3,5,10 with random and informed strategies
-    k_values = [1, 2, 3, 5, 10]
-    strategies = ['random', 'informed']
-    
-    for k in k_values:
-        for strategy in strategies:
-            strategy_suffix = 'r' if strategy == 'random' else 'd'
-            model_name = f'MultiSource-full-c{strategy_suffix}k{k}-m0.5-e5-b128-L6'
-            analyzer.analyze_embedding(
-                f'swardiantara/{model_name}',
-                k_value=k,
-                strategy=strategy
-            )
-
     out_dir = 'analysis_results'
     os.makedirs(out_dir, exist_ok=True)
-    # Save detailed results
-    analyzer.save_results(os.path.join(out_dir, 'cosine_distances_all_scenarios.csv'))
+    result_path = os.path.join(out_dir, 'cosine_distances_all_scenarios.csv')
+
+    if os.path.exists(result_path):
+        print(f"Loading existing results from {result_path}")
+        results_df = pd.read_csv(result_path)
+        # Reconstruct results dictionary
+        for _, row in results_df.iterrows():
+            key = (row['k_value'], row['strategy'] if row['strategy'] != 'none' else None)
+            if key not in analyzer.results:
+                analyzer.results[key] = []
+            analyzer.results[key].append(row['cosine_distance'])
+        # Convert lists to numpy arrays
+        for key in analyzer.results:
+            analyzer.results[key] = np.array(analyzer.results[key])
+    else:   
+        # Scenario 1: Pre-trained baseline (no fine-tuning)
+        analyzer.analyze_embedding(
+            'sentence-transformers/all-MiniLM-L6-v2',
+            k_value='pretrained',
+            strategy=None
+        )
+        
+        # Scenario 2: k=0 (fine-tuned without sampling strategy)
+        analyzer.analyze_embedding(
+            'swardiantara/MultiSource-full-crk0-m0.5-e5-b128-L6',
+            k_value=0,
+            strategy=None
+        )
+        
+        # Scenarios 3-12: k=1,2,3,5,10 with random and informed strategies
+        k_values = [1, 2, 3, 5, 10]
+        strategies = ['random', 'informed']
+        
+        for k in k_values:
+            for strategy in strategies:
+                strategy_suffix = 'r' if strategy == 'random' else 'd'
+                model_name = f'MultiSource-full-c{strategy_suffix}k{k}-m0.5-e5-b128-L6'
+                analyzer.analyze_embedding(
+                    f'swardiantara/{model_name}',
+                    k_value=k,
+                    strategy=strategy
+                )
+
+        # Save detailed results
+        analyzer.save_results(result_path)
     
     # Create grouped boxplot visualization
     analyzer.plot_grouped_boxplot(save_path=os.path.join(out_dir, 'grouped_boxplot_comparison.pdf'))
