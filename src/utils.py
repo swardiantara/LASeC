@@ -155,8 +155,9 @@ def get_model(args):
     if args.model == 'birch':
         return Birch(threshold=args.threshold, n_clusters=None)
     elif args.model == 'agglomerative':
+        metric = 'euclidean' if args.linkage == 'ward' else 'precomputed'
         return AgglomerativeClustering(n_clusters=None,
-                                    metric='precomputed',
+                                    metric=metric,
                                     linkage=args.linkage,
                                     distance_threshold=args.threshold)
     elif args.model == 'dbscan':

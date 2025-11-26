@@ -170,8 +170,11 @@ def main():
     cluster_started_at = datetime.datetime.now()
     clustering_model = get_model(args)
     if args.model == 'agglomerative':
-        distance_matrix = compute_distance_matrix(corpus_embeddings)
-        clustering_model.fit(distance_matrix)
+        if args.linkage == 'ward':
+            clustering_model.fit(corpus_embeddings)
+        else:
+            distance_matrix = compute_distance_matrix(corpus_embeddings)
+            clustering_model.fit(distance_matrix)
     elif args.model == 'hdbscan':
         distance_matrix = compute_distance_matrix(corpus_embeddings)
         clustering_model.fit(distance_matrix.astype(np.float64))
