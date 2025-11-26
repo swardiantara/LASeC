@@ -63,7 +63,7 @@ def get_heldout_sample(source_sample: pd.DataFrame, source_name: str, model_path
     
     held_out_dir = os.path.join('dataset_heldout')
     os.makedirs(held_out_dir, exist_ok=True)
-    held_out_file = os.path.join(held_out_dir, f'{dataset}_2k.log_structured.csv')
+    held_out_file = os.path.join(held_out_dir, f'{source_name}_2k.log_structured.csv')
 
     if os.path.exists(held_out_file):
         print(f"Held out dataset is found in {held_out_file}")
