@@ -51,7 +51,7 @@ def set_seed(seed: int = 42) -> None:
 # swardiantara/MultiSource-full-cdk0-m0.5-e5-b128-L6
 # swardiantara/MultiSource-partial-cdk3-m0.5-e5-b128-L6
 # only when using fine-tuned embedding model
-def get_heldout_sample(source_sample: pd.DataFrame, source_name: str, model_path: str="MultiSource-partial-cdk3-m0.5-e5-b128-L6") -> pd.DataFrame:
+def get_heldout_sample(source_sample: pd.DataFrame, source_name: str, model_path: str="MultiSource-partial-crk2-m0.5-e5-b128-L6") -> pd.DataFrame:
     initial_model = 'all-MiniLM-L6-v2' if model_path.split('-')[-1] == 'L6' else 'all-MiniLM-L12-v2'
     dataset = "-".join(model_path.split("-")[:2])  # MultiSource-full
     sampling_strategy = 'random' if model_path.split('-')[1][1] == 'r' else 'distance'
@@ -69,7 +69,7 @@ def get_heldout_sample(source_sample: pd.DataFrame, source_name: str, model_path
         print(f"Held out dataset is found in {held_out_file}")
         test_sample = pd.read_csv(held_out_file)
     else:
-        # embeddings/MultiSource-full/all-MiniLM-L6-v2/random-k1/random_k1_selected_sample.xlsx
+        # embeddings/MultiSource-full/all-MiniLM-L6-v2/random-k2/random_k2_selected_sample.xlsx
         training_file_path = os.path.join('embeddings', dataset, initial_model, f"{sampling_strategy}-{num_sample}", f'{sampling_strategy}_{num_sample}_selected_sample.xlsx')
         print(f"Training samples file path: {training_file_path}")
         if not os.path.exists(training_file_path):
@@ -81,7 +81,7 @@ def get_heldout_sample(source_sample: pd.DataFrame, source_name: str, model_path
         train_source = train_sample[train_sample['Source'] == source_name] if not source_name.startswith('Multi') else train_sample
         test_sample = source_sample.copy()
         for content in train_source['Content'].to_list():
-            index_to_remove = test_sample[test_sample['message'] == content].index
+            index_to_remove = test_sample[test_sample['Content'] == content].index
             test_sample.drop(index_to_remove, inplace=True)
         if not source_name.startswith('Multi'):
             test_sample = test_sample[['Content', 'EventId', 'EventTemplate']]
@@ -138,12 +138,12 @@ def main():
     
     if args.held_out: # use this param to indicate whether using LOSO or MultiSource-full
         # swardiantara/MultiSource-partial-cdk3-m0.5-e5-b128-L6
-        args.embedding = f"{args.dataset}-loso-crk2-m0.5-e5-b128-L6"
-        # dataset = get_heldout_sample(dataset, args.dataset).sort_values(by='Content', ascending=sample_order).reset_index(drop=True)
+        # args.embedding = f"{args.dataset}-loso-crk2-m0.5-e5-b128-L6"
+        dataset = get_heldout_sample(dataset, args.dataset).sort_values(by='Content', ascending=sample_order).reset_index(drop=True)
         # dataset_scenario = f"HO-{args.dataset}-{str(args.sample_size)}" if args.sample_size > 2000 else f"HO-{args.dataset}"
-        dataset_scenario = f"{args.dataset}-{str(args.sample_size)}" if args.sample_size > 2000 else args.dataset
-    else:
-        dataset_scenario = f"{args.dataset}-{str(args.sample_size)}" if args.sample_size > 2000 else args.dataset
+        # dataset_scenario = f"{args.dataset}-{str(args.sample_size)}" if args.sample_size > 2000 else args.dataset
+    # else:
+    dataset_scenario = f"{args.dataset}-{str(args.sample_size)}" if args.sample_size > 2000 else args.dataset
 
     dataset.rename(columns = {'Content': 'message', 'EventId': 'cluster_id'}, inplace = True)
     model_scenario = args.model
