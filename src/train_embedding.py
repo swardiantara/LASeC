@@ -66,7 +66,7 @@ def main():
     
     # check for the dataset portion
     if args.template_portion == 'partial':
-        if k == 3:
+        if k == 2:
             train_path = os.path.join(args_dict['output_dir'], f'{args.dataset}-{args.template_portion}', 'train_dataset.csv')
             test_path = os.path.join(args_dict['output_dir'], f'{args.dataset}-{args.template_portion}', 'test_dataset.csv')
             if os.path.exists(train_path) and os.path.exists(test_path):
@@ -86,10 +86,10 @@ def main():
                 else:
                     print(f"!WARNING: {len(overlap)} templates appear in both sets!")
             else:
-                # Split by templates (80% train, 20% test)
+                # Split by templates (50% train, 50% test)
                 train_data, test_data = split_by_template(
-                    dataset, 
-                    test_size=0.2, 
+                    dataset,
+                    test_size=0.5,
                     random_state=42,
                     output_train=train_path,
                     output_test=test_path,
@@ -110,11 +110,10 @@ def main():
         else:
             # k < 3. Take the pool from the selected samples of distance-k3
             # embeddings/MultiSource-partial/all-MiniLM-L6-v2/distance-k3/distance_k3_selected_sample.xlsx
-            train_path = os.path.join("embeddings", "MultiSource-partial", "all-MiniLM-L6-v2", "distance-k3", "distance_k3_selected_sample.xlsx") # for now static
+            train_path = os.path.join("embeddings", "MultiSource-partial", "all-MiniLM-L6-v2", "random-k2", "random_k2_selected_sample.xlsx") # for now static
             dataset = train_data = pd.read_excel(train_path)
     elif args.template_portion == 'loso': # leave-one-source-out
         dataset = dataset[dataset['Source'] != args.dataset]
-
 
     start_time = time.time()
     log_embedding = LogEmbedding(args_dict, dataset, output_path)
