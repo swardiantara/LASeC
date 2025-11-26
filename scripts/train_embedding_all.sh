@@ -40,4 +40,4 @@
 model="all-MiniLM-L6-v2"
 sampling="random"
 k=2
-python -m src.train_embedding --initial_model_path "$model" --sampling_strategy "$sampling" --k "$k" --push_embedding --template_portion partial
+python -m src.train_embedding --initial_model_path "$model" --sampling_strategy "$sampling" --k "$k" --push_embedding --template_portion partial --dataset MultiSource

@@ -18,7 +18,7 @@ parser.add_argument('--initial_model_path', default='all-MiniLM-L6-v2',
                     help="Initial model_name_or_path. Default: `all-MiniLM-L6-v2`")
 parser.add_argument('--sampling_strategy', choices=['random', 'distance'], default='distance', 
                     help="Sampling strategy to select `k` positive samples. Default: `random`")
-parser.add_argument('--dataset', default='Android',
+parser.add_argument('--dataset', default='MultiSource',
                     help="Dataset to use for fine-tuning. Default=`Drone`")
 parser.add_argument('--k', type=int, default=3,
                     help="Number of samples to be paired with their template to construct positive pairs. Default: `10`")
