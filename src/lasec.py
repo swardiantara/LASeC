@@ -54,7 +54,7 @@ def set_seed(seed: int = 42) -> None:
 def get_heldout_sample(source_sample: pd.DataFrame, source_name: str, model_path: str="MultiSource-partial-crk2-m0.5-e5-b128-L6") -> pd.DataFrame:
     initial_model = 'all-MiniLM-L6-v2' if model_path.split('-')[-1] == 'L6' else 'all-MiniLM-L12-v2'
     dataset = "-".join(model_path.split("-")[:2])  # MultiSource-full
-    sampling_strategy = 'random' if model_path.split('-')[1][1] == 'r' else 'distance'
+    sampling_strategy = 'random' if model_path.split('-')[2][1] == 'r' else 'distance'
     num_sample = model_path.split('-')[2][2:] # k0, k3, etc.
 
     if num_sample == "k0":
