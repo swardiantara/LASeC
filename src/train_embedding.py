@@ -104,9 +104,9 @@ def main():
                 print(f"Template overlap between train and test: {len(overlap)}")
                 if len(overlap) == 0:
                     print("No template leakage - split is valid!")
-                    dataset = train_data  # use only training data for fine-tuning
                 else:
                     print(f"!WARNING: {len(overlap)} templates appear in both sets!")
+                dataset = train_data  # use only training data for fine-tuning
         else:
             # k < 3. Take the pool from the selected samples of distance-k3
             # embeddings/MultiSource-partial/all-MiniLM-L6-v2/distance-k3/distance_k3_selected_sample.xlsx
