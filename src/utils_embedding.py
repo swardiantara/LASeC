@@ -103,17 +103,17 @@ def set_seed(seed: int = 42) -> None:
     print(f"Random seed set as {seed}")
 
 
-def split_by_template(merged_dataset, test_size=0.2, random_state=42, 
+def split_by_template(merged_dataset, test_size=0.5, random_state=42, 
                       output_train='train_dataset.csv', 
                       output_test='test_dataset.csv'):
     """
     Split merged log dataset by unique EventTemplates into train and test sets, preserving Source.
-    Performs 80:20 split per Source first, then merges results.
+    Performs 50:50 split per Source first, then merges results.
     
     Args:
         merged_dataset (pd.DataFrame): Merged dataset with columns 
                                        [Source, Content, EventId, EventTemplate]
-        test_size (float): Proportion of templates for test set (default: 0.2)
+        test_size (float): Proportion of templates for test set (default: 0.5)
         random_state (int): Random seed for reproducibility (default: 42)
         output_train (str): Output filename for training set
         output_test (str): Output filename for test set
