@@ -146,7 +146,7 @@ def compute_distance_matrix(corpus_embeddings, is_norm=True):
 def save_results(arguments_dict: dict, cluster_label_df: pd.DataFrame, output_dir: str):
     with open(os.path.join(output_dir, 'scenario_arguments.json'), 'w') as json_file:
         json.dump(arguments_dict, json_file, indent=4)
-    if len(cluster_label_df) <= 2000:
+    if len(cluster_label_df) <= 100000:
         file_path = os.path.join(output_dir, 'prediction.xlsx')
         cluster_label_df.to_excel(file_path, index=False)
 
