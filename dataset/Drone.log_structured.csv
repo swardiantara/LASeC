@@ -1,0 +1,659 @@
+LineId,Content,EventId,EventTemplate
+1,Motors starting.; Flight mode changed to P-GPS.,17,Motors starting.; Flight mode changed to P-GPS.
+2,Data Recorder File Index is 80.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 500 m (1640 ft).; Flight mode changed to Starting Motors.,88,Data Recorder File Index is 80.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 500 m (1640 ft).; Flight mode changed to Starting Motors.
+3,Flight mode changed to Manual Takeoff.,207,Flight mode changed to Manual Takeoff.
+4,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
+5,Home point updated.,166,Home point updated.
+6,Gimbal pitch axis endpoint reached.,25,Gimbal pitch axis endpoint reached.
+7,Gimbal pitch axis endpoint reached.,25,Gimbal pitch axis endpoint reached.
+8,Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,198,Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+9,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,198,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+10,Image transmission signal weak.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,198,Image transmission signal weak.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+11,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,198,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+12,RC signal lost.,6,RC signal lost.
+13,RC signal lost.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,27,RC signal lost.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+14,Image transmission signal weak.,234,Image transmission signal weak.
+15,Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,198,Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+16,Image transmission signal weak.,234,Image transmission signal weak.
+17,Aircraft braking.,177,Aircraft braking.
+18,Aircraft braking.,177,Aircraft braking.
+19,Aircraft braking.; Auto landing in progress.; Flight mode changed to Auto Landing.,136,Aircraft braking.; Auto landing in progress.; Flight mode changed to Auto Landing.
+20,Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing.,66,Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing.
+21,Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing.,66,Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing.
+22,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
+23,Motors starting.; Flight mode changed to Starting Motors.,17,Motors starting.; Flight mode changed to Starting Motors.
+24,Data Recorder File Index is 83.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 500 m (1640 ft).,88,Data Recorder File Index is 83.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 500 m (1640 ft).
+25,Flight mode changed to Manual Takeoff.,207,Flight mode changed to Manual Takeoff.
+26,Home point updated.; Flight mode changed to P-GPS.,208,Home point updated.; Flight mode changed to P-GPS.
+27,Image transmission signal weak.,234,Image transmission signal weak.
+28,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,198,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+29,RC signal lost.,6,RC signal lost.
+30,RC signal lost.,6,RC signal lost.
+31,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Flight mode changed to Go Home.,78,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Flight mode changed to Go Home.
+32,No image transmission. RTH.; Press Brake button to cancel RTH.; RC signal lost.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.,78,No image transmission. RTH.; Press Brake button to cancel RTH.; RC signal lost.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.
+33,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.,78,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.
+34,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.,78,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.
+35,RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.,71,RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.
+36,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
+37,RC signal weak.,6,RC signal weak.
+38,RC signal weak.; Image transmission signal weak.,92,RC signal weak.; Image transmission signal weak.
+39,Image transmission signal weak.,234,Image transmission signal weak.
+40,Image transmission signal weak.,234,Image transmission signal weak.
+41,Image transmission signal weak.,234,Image transmission signal weak.
+42,Image transmission signal weak.; RC signal weak.,92,Image transmission signal weak.; RC signal weak.
+43,Image transmission signal weak.,234,Image transmission signal weak.
+44,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,198,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+45,RC signal weak. Avoid blocking antennas and adjust antenna orientation.,325,RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+46,RC signal lost.,6,RC signal lost.
+47,Image transmission signal weak.,234,Image transmission signal weak.
+48,Image transmission signal weak.,234,Image transmission signal weak.
+49,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,198,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+50,Image transmission signal weak.,234,Image transmission signal weak.
+51,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Flight mode changed to Go Home.,78,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Flight mode changed to Go Home.
+52,Original route RTH.,452,Original route RTH.
+53,RTH in progress.,163,RTH in progress.
+54,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.,78,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.
+55,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.,78,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.
+56,Controller triggered aircraft to descend. Auto RTH canceled.,71,Controller triggered aircraft to descend. Auto RTH canceled.
+57,RTH ascending.,113,RTH ascending.
+58,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
+59,Image transmission signal weak.,234,Image transmission signal weak.
+60,Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,33,Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+61,RC signal lost.,6,RC signal lost.
+62,RC signal lost.,6,RC signal lost.
+63,Image transmission signal weak.,234,Image transmission signal weak.
+64,Image transmission signal weak.; RC signal lost.,92,Image transmission signal weak.; RC signal lost.
+65,RC signal lost.; No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Flight mode changed to Go Home.,61,RC signal lost.; No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Flight mode changed to Go Home.
+66,No image transmission. RTH.; Press Brake button to cancel RTH.; RC signal lost.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.,78,No image transmission. RTH.; Press Brake button to cancel RTH.; RC signal lost.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.
+67,RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.,71,RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.
+68,No image transmission. RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; No image transmission. Aircraft returning to home.; RTH ascending.; Flight mode changed to P-GPS.,226,No image transmission. RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; No image transmission. Aircraft returning to home.; RTH ascending.; Flight mode changed to P-GPS.
+69,No image transmission. RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; No image transmission. Aircraft returning to home.,226,No image transmission. RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; No image transmission. Aircraft returning to home.
+70,Image transmission signal weak.,234,Image transmission signal weak.
+71,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,198,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+72,Image transmission signal weak.,234,Image transmission signal weak.
+73,Image transmission signal weak.,234,Image transmission signal weak.
+74,Image transmission signal weak.,234,Image transmission signal weak.
+75,Image transmission signal weak.,234,Image transmission signal weak.
+76,Image transmission signal weak.,234,Image transmission signal weak.
+77,Image transmission signal weak.,234,Image transmission signal weak.
+78,Aircraft braking.,177,Aircraft braking.
+79,RC signal weak. Avoid blocking antennas and adjust antenna orientation.,325,RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+80,RC signal weak.; Aircraft braking.,98,RC signal weak.; Aircraft braking.
+81,RC signal lost.,6,RC signal lost.
+82,RC signal lost.,6,RC signal lost.
+83,RC signal lost.,6,RC signal lost.
+84,RC signal weak.,6,RC signal weak.
+85,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,27,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+86,RC signal weak.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,27,RC signal weak.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+87,Failsafe RTH.; Flight mode changed to Go Home.,59,Failsafe RTH.; Flight mode changed to Go Home.
+88,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.,8,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.
+89,Downlink Lost.,120,Downlink Lost.
+90,Downlink Restored (after 0m 1.2s).,505,Downlink Restored (after 0m 1.2s).
+91,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Original route RTH.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Original route RTH.
+92,RC signal weak. Avoid blocking antennas and adjust antenna orientation.,325,RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+93,Failsafe RTH.,75,Failsafe RTH.
+94,Failsafe RTH.,75,Failsafe RTH.
+95,Failsafe RTH.; Image transmission signal weak.; RTH in progress.,178,Failsafe RTH.; Image transmission signal weak.; RTH in progress.
+96,Downlink Lost.,120,Downlink Lost.
+97,Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Downlink Restored (after 0m 6.2s).,8,Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Downlink Restored (after 0m 6.2s).
+98,RC signal weak. Avoid blocking antennas and adjust antenna orientation.,325,RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+99,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.
+100,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.; Controller triggered aircraft to fly backward. Auto RTH canceled.,224,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.; Controller triggered aircraft to fly backward. Auto RTH canceled.
+101,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
+102,Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.,224,Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.
+103,Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.,224,Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.
+104,Aircraft braking.,177,Aircraft braking.
+105,Gimbal pitch axis endpoint reached.; Aircraft braking.,233,Gimbal pitch axis endpoint reached.; Aircraft braking.
+106,Gimbal pitch axis endpoint reached.; Aircraft braking.,233,Gimbal pitch axis endpoint reached.; Aircraft braking.
+107,Aircraft braking.,177,Aircraft braking.
+108,RC signal lost.,6,RC signal lost.
+109,RC signal lost.; Aircraft braking.,98,RC signal lost.; Aircraft braking.
+110,RC signal weak.; RC signal lost.,6,RC signal weak.; RC signal lost.
+111,Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,33,Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+112,RC signal lost. Aircraft will follow preset action for lost signal.,125,RC signal lost. Aircraft will follow preset action for lost signal.
+113,RC signal lost.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,27,RC signal lost.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+114,RC signal lost. Aircraft will follow preset action for lost signal.,125,RC signal lost. Aircraft will follow preset action for lost signal.
+115,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,27,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+116,RC signal lost. Returning to home.; Failsafe RTH.; Flight mode changed to Go Home.,404,RC signal lost. Returning to home.; Failsafe RTH.; Flight mode changed to Go Home.
+117,Failsafe RTH.,75,Failsafe RTH.
+118,Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.,8,Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.
+119,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.; RTH in progress.,8,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.; RTH in progress.
+120,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Original route RTH.; RTH in progress.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Original route RTH.; RTH in progress.
+121,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.
+122,Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.,224,Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.
+123,Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.; RTH in progress.,224,Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.; RTH in progress.
+124,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
+125,Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.; RTH in progress.,224,Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.; RTH in progress.
+126,RC signal weak. Avoid blocking antennas and adjust antenna orientation.,325,RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+127,RC signal lost. Aircraft will follow preset action for lost signal.,125,RC signal lost. Aircraft will follow preset action for lost signal.
+128,RC signal lost.; RC signal weak.,6,RC signal lost.; RC signal weak.
+129,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,27,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+130,RC signal weak.; Aircraft braking.,98,RC signal weak.; Aircraft braking.
+131,Failsafe RTH.; Flight mode changed to Go Home.,59,Failsafe RTH.; Flight mode changed to Go Home.
+132,Press Brake button to cancel RTH.; RC signal lost. Returning to home.,8,Press Brake button to cancel RTH.; RC signal lost. Returning to home.
+133,RTH in progress.,163,RTH in progress.
+134,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.
+135,Failsafe RTH.,75,Failsafe RTH.
+136,Failsafe RTH.,75,Failsafe RTH.
+137,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH in progress.,8,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH in progress.
+138,Controller triggered aircraft to fly backward. Auto RTH canceled.,71,Controller triggered aircraft to fly backward. Auto RTH canceled.
+139,RC signal weak. Avoid blocking antennas and adjust antenna orientation.,325,RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+140,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
+141,Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.,224,Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.
+142,Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,224,Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+143,RC signal weak.,6,RC signal weak.
+144,RC signal weak.,6,RC signal weak.
+145,Aircraft braking.,177,Aircraft braking.
+146,Aircraft braking.,177,Aircraft braking.
+147,RC signal weak.,6,RC signal weak.
+148,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,27,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+149,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,27,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+150,RC signal weak.,6,RC signal weak.
+151,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,27,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+152,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,27,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+153,RC signal weak.,6,RC signal weak.
+154,Auto landing in progress.; Press brake button to cancel landing.; Flight mode changed to Auto Landing.,249,Auto landing in progress.; Press brake button to cancel landing.; Flight mode changed to Auto Landing.
+155,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
+156,Data Recorder File Index is 84.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 30 m (98 ft).; Flight mode changed to P-GPS (Brake).,88,Data Recorder File Index is 84.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 30 m (98 ft).; Flight mode changed to P-GPS (Brake).
+157,Set maximum flight altitude to 500 m (1640 ft).,334,Set maximum flight altitude to 500 m (1640 ft).
+158,Image transmission signal weak.,234,Image transmission signal weak.
+159,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,198,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+160,RC signal lost.,6,RC signal lost.
+161,RC signal lost.,6,RC signal lost.
+162,Image transmission signal weak.,234,Image transmission signal weak.
+163,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Flight mode changed to Go Home.,78,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Flight mode changed to Go Home.
+164,RC signal lost.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.,61,RC signal lost.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.
+165,No image transmission. RTH.,165,No image transmission. RTH.
+166,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.,78,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.
+167,RTH ascending.,113,RTH ascending.
+168,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; RTH ascending.,78,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; RTH ascending.
+169,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH ascending.,78,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH ascending.
+170,No image transmission. RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH ascending.,226,No image transmission. RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; No image transmission. Aircraft returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH ascending.
+171,Flight mode changed to P-GPS (Brake).,79,Flight mode changed to P-GPS (Brake).
+172,No image transmission. RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; No image transmission. Aircraft returning to home.; RTH ascending.,226,No image transmission. RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; No image transmission. Aircraft returning to home.; RTH ascending.
+173,Aircraft braking.,177,Aircraft braking.
+174,RC signal lost.,6,RC signal lost.
+175,RC signal lost.,6,RC signal lost.
+176,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,198,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+177,Image transmission signal weak.; Aircraft braking.; RC signal lost.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,27,Image transmission signal weak.; Aircraft braking.; RC signal lost.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+178,RC signal lost. Aircraft will follow preset action for lost signal.,125,RC signal lost. Aircraft will follow preset action for lost signal.
+179,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,27,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+180,Failsafe RTH.; Flight mode changed to Go Home.,59,Failsafe RTH.; Flight mode changed to Go Home.
+181,Failsafe RTH.,75,Failsafe RTH.
+182,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Original route RTH.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Original route RTH.
+183,RTH in progress.,163,RTH in progress.
+184,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RTH in progress.
+185,RTH ascending.,113,RTH ascending.
+186,Controller triggered aircraft to descend. Auto RTH canceled.,71,Controller triggered aircraft to descend. Auto RTH canceled.
+187,Flight mode changed to P-GPS (Brake).,79,Flight mode changed to P-GPS (Brake).
+188,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RTH ascending.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RTH ascending.
+189,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RTH ascending.,71,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RTH ascending.
+190,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,198,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+191,Image transmission signal weak.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,27,Image transmission signal weak.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+192,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,27,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+193,RC signal weak. Avoid blocking antennas and adjust antenna orientation.,325,RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+194,RC signal lost.,6,RC signal lost.
+195,Failsafe RTH.; Flight mode changed to Go Home.,59,Failsafe RTH.; Flight mode changed to Go Home.
+196,Failsafe RTH.,75,Failsafe RTH.
+197,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Original route RTH.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Original route RTH.
+198,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Original route RTH.; RTH in progress.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Original route RTH.; RTH in progress.
+199,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Original route RTH.; RTH in progress.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Original route RTH.; RTH in progress.
+200,RTH ascending.,113,RTH ascending.
+201,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.
+202,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.
+203,Flight mode changed to P-GPS (Brake).,79,Flight mode changed to P-GPS (Brake).
+204,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.
+205,Image transmission signal weak.,234,Image transmission signal weak.
+206,RC signal weak.,6,RC signal weak.
+207,Image transmission signal weak.,234,Image transmission signal weak.
+208,Image transmission signal weak.; RC signal lost.,92,Image transmission signal weak.; RC signal lost.
+209,RC signal lost.,6,RC signal lost.
+210,Failsafe RTH.; Flight mode changed to Go Home.,59,Failsafe RTH.; Flight mode changed to Go Home.
+211,Failsafe RTH.,75,Failsafe RTH.
+212,Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.,8,Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.
+213,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.; RTH ascending.,8,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.; RTH ascending.
+214,Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,198,Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+215,RC signal weak. Avoid blocking antennas and adjust antenna orientation.,325,RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+216,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.
+217,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.
+218,Failsafe RTH.,75,Failsafe RTH.
+219,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.,224,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.
+220,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.
+221,Flight mode changed to P-GPS (Brake).,79,Flight mode changed to P-GPS (Brake).
+222,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.
+223,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RC signal lost. Aircraft will follow preset action for lost signal.,27,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RC signal lost. Aircraft will follow preset action for lost signal.
+224,Failsafe RTH.; Flight mode changed to Go Home.,59,Failsafe RTH.; Flight mode changed to Go Home.
+225,Failsafe RTH.,75,Failsafe RTH.
+226,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.,8,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.
+227,RTH in progress.,163,RTH in progress.
+228,RC signal weak. Avoid blocking antennas and adjust antenna orientation.,325,RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+229,RTH ascending.,113,RTH ascending.
+230,Controller triggered aircraft to descend. Auto RTH canceled.,71,Controller triggered aircraft to descend. Auto RTH canceled.
+231,Flight mode changed to P-GPS (Brake).,79,Flight mode changed to P-GPS (Brake).
+232,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.
+233,RC signal lost.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,125,RC signal lost.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+234,RC signal lost.,6,RC signal lost.
+235,RC signal weak.,6,RC signal weak.
+236,RC signal weak.,6,RC signal weak.
+237,Image transmission signal weak.,234,Image transmission signal weak.
+238,Image transmission signal weak.,234,Image transmission signal weak.
+239,Image transmission signal weak.,234,Image transmission signal weak.
+240,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,198,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+241,RC signal lost. Aircraft will follow preset action for lost signal.,125,RC signal lost. Aircraft will follow preset action for lost signal.
+242,RC signal lost.,6,RC signal lost.
+243,RC signal weak.,6,RC signal weak.
+244,Image transmission signal weak.,234,Image transmission signal weak.
+245,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,27,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+246,RC signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,27,RC signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+247,Image transmission signal weak.,234,Image transmission signal weak.
+248,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,198,Image transmission signal weak.; Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+249,RC signal lost.,6,RC signal lost.
+250,RC signal lost. Aircraft will follow preset action for lost signal.,125,RC signal lost. Aircraft will follow preset action for lost signal.
+251,RC signal lost.,6,RC signal lost.
+252,Image transmission signal weak.,234,Image transmission signal weak.
+253,Image transmission signal weak.; RC signal lost.,92,Image transmission signal weak.; RC signal lost.
+254,Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,33,Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+255,RC signal lost.,6,RC signal lost.
+256,Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,198,Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+257,RC signal lost.,6,RC signal lost.
+258,Image transmission signal weak.,234,Image transmission signal weak.
+259,Image transmission signal weak.,234,Image transmission signal weak.
+260,Aircraft braking.,177,Aircraft braking.
+261,Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,33,Aircraft braking.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+262,Downlink Lost.,120,Downlink Lost.
+263,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Downlink Restored (after 0m 5.8s).; Flight mode changed to Go Home.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Downlink Restored (after 0m 5.8s).; Flight mode changed to Go Home.
+264,RTH in progress.,163,RTH in progress.
+265,RTH ascending.,113,RTH ascending.
+266,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.,224,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.
+267,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.
+268,Flight mode changed to P-GPS (Brake).,79,Flight mode changed to P-GPS (Brake).
+269,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.
+270,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,27,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+271,RC signal lost.,6,RC signal lost.
+272,No image transmission. RTH.; Press Brake button to cancel RTH.; RC signal lost. Aircraft will follow preset action for lost signal.; No image transmission. Aircraft returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Flight mode changed to Go Home.,61,No image transmission. RTH.; Press Brake button to cancel RTH.; RC signal lost. Aircraft will follow preset action for lost signal.; No image transmission. Aircraft returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Flight mode changed to Go Home.
+273,Original route RTH.,452,Original route RTH.
+274,RTH in progress.,163,RTH in progress.
+275,No image transmission. RTH.,165,No image transmission. RTH.
+276,RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.,71,RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.
+277,Flight mode changed to P-GPS (Brake).,79,Flight mode changed to P-GPS (Brake).
+278,No image transmission. RTH.; Controller triggered aircraft to descend. Auto RTH canceled.,226,No image transmission. RTH.; Controller triggered aircraft to descend. Auto RTH canceled.
+279,RC signal lost.,6,RC signal lost.
+280,RC signal lost.,6,RC signal lost.
+281,Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,33,Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+282,Image transmission signal weak.,234,Image transmission signal weak.
+283,Downlink Lost.,120,Downlink Lost.
+284,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Downlink Restored (after 0m 7.4s).; Flight mode changed to Go Home.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Downlink Restored (after 0m 7.4s).; Flight mode changed to Go Home.
+285,RTH ascending.,113,RTH ascending.
+286,RC signal weak. Avoid blocking antennas and adjust antenna orientation.,325,RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+287,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.
+288,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.,8,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.
+289,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.,8,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.
+290,Downlink Lost.,120,Downlink Lost.
+291,Downlink Restored (after 0m 5.4s).,505,Downlink Restored (after 0m 5.4s).
+292,Press Brake button to cancel RTH.; RC signal lost. Returning to home.,8,Press Brake button to cancel RTH.; RC signal lost. Returning to home.
+293,RTH in progress.,163,RTH in progress.
+294,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH in progress.,8,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH in progress.
+295,Failsafe RTH.; Aircraft braking.; RC signal lost. Returning to home.; RTH in progress.,498,Failsafe RTH.; Aircraft braking.; RC signal lost. Returning to home.; RTH in progress.
+296,Controller triggered aircraft to fly backward. Auto RTH canceled.,71,Controller triggered aircraft to fly backward. Auto RTH canceled.
+297,Flight mode changed to P-GPS (Brake).,79,Flight mode changed to P-GPS (Brake).
+298,Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.; RTH in progress.,224,Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.; RTH in progress.
+299,Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.,224,Failsafe RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; RC signal lost. Returning to home.
+300,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Flight mode changed to Go Home.,78,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; Flight mode changed to Go Home.
+301,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; RTH in progress.,78,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; RTH in progress.
+302,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; RTH in progress.,78,No image transmission. RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; RTH in progress.
+303,No image transmission. RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; No image transmission. Aircraft returning to home.; RTH in progress.,226,No image transmission. RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; No image transmission. Aircraft returning to home.; RTH in progress.
+304,Flight mode changed to P-GPS (Brake).,79,Flight mode changed to P-GPS (Brake).
+305,No image transmission. RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; No image transmission. Aircraft returning to home.; RTH in progress.,226,No image transmission. RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; No image transmission. Aircraft returning to home.; RTH in progress.
+306,No image transmission. RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; No image transmission. Aircraft returning to home.,226,No image transmission. RTH.; Controller triggered aircraft to fly backward. Auto RTH canceled.; No image transmission. Aircraft returning to home.
+307,RC signal lost.,6,RC signal lost.
+308,RC signal lost.,6,RC signal lost.
+309,Aircraft braking.,177,Aircraft braking.
+310,RC signal lost.,6,RC signal lost.
+311,Aircraft braking.,177,Aircraft braking.
+312,RTH in progress.; Flight mode changed to Go Home.,148,RTH in progress.; Flight mode changed to Go Home.
+313,RC signal lost.,6,RC signal lost.
+314,Press Brake button to cancel RTH.,201,Press Brake button to cancel RTH.
+315,RTH in progress.; Press Brake button to cancel RTH.,201,RTH in progress.; Press Brake button to cancel RTH.
+316,RTH in progress.; Press Brake button to cancel RTH.; RC signal lost.,8,RTH in progress.; Press Brake button to cancel RTH.; RC signal lost.
+317,RC signal lost.; Press Brake button to cancel RTH.; RTH in progress.,8,RC signal lost.; Press Brake button to cancel RTH.; RTH in progress.
+318,RC signal lost.; Press Brake button to cancel RTH.; RTH in progress.,8,RC signal lost.; Press Brake button to cancel RTH.; RTH in progress.
+319,RTH in progress.; Press Brake button to cancel RTH.,201,RTH in progress.; Press Brake button to cancel RTH.
+320,RTH in progress.; Press Brake button to cancel RTH.,201,RTH in progress.; Press Brake button to cancel RTH.
+321,RTH in progress.; Press Brake button to cancel RTH.,201,RTH in progress.; Press Brake button to cancel RTH.
+322,RTH in progress.; Press Brake button to cancel RTH.,201,RTH in progress.; Press Brake button to cancel RTH.
+323,RTH in progress.; Press Brake button to cancel RTH.,201,RTH in progress.; Press Brake button to cancel RTH.
+324,RTH in progress.; Press Brake button to cancel RTH.,201,RTH in progress.; Press Brake button to cancel RTH.
+325,RTH in progress.; Press Brake button to cancel RTH.,201,RTH in progress.; Press Brake button to cancel RTH.
+326,RTH in progress.; Press Brake button to cancel RTH.,201,RTH in progress.; Press Brake button to cancel RTH.
+327,RTH in progress.; Press Brake button to cancel RTH.,201,RTH in progress.; Press Brake button to cancel RTH.
+328,RTH in progress.; Press Brake button to cancel RTH.,201,RTH in progress.; Press Brake button to cancel RTH.
+329,RTH in progress.; Press Brake button to cancel RTH.,201,RTH in progress.; Press Brake button to cancel RTH.
+330,RTH in progress.; Press Brake button to cancel RTH.,201,RTH in progress.; Press Brake button to cancel RTH.
+331,RTH in progress.; Press Brake button to cancel RTH.; Auto landing in progress.; Press brake button to cancel landing.; Flight mode changed to Auto Landing.,99,RTH in progress.; Press Brake button to cancel RTH.; Auto landing in progress.; Press brake button to cancel landing.; Flight mode changed to Auto Landing.
+332,Auto landing in progress.; Press brake button to cancel landing.; RTH in progress.,99,Auto landing in progress.; Press brake button to cancel landing.; RTH in progress.
+333,Auto landing in progress.; Area under aircraft unsuitable for landing. Move to safe environment and try again.,31,Auto landing in progress.; Area under aircraft unsuitable for landing. Move to safe environment and try again.
+334,Flight mode changed to P-GPS (Brake).,79,Flight mode changed to P-GPS (Brake).
+335,Auto landing in progress.; Area under aircraft unsuitable for landing. Move to safe environment and try again.,31,Auto landing in progress.; Area under aircraft unsuitable for landing. Move to safe environment and try again.
+336,Area under aircraft unsuitable for landing. Move to safe environment and try again.,31,Area under aircraft unsuitable for landing. Move to safe environment and try again.
+337,Auto landing in progress.; Press brake button to cancel landing.; Flight mode changed to Auto Landing.,249,Auto landing in progress.; Press brake button to cancel landing.; Flight mode changed to Auto Landing.
+338,Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing.,66,Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing.
+339,Flight mode changed to Confirm Landing.,214,Flight mode changed to Confirm Landing.
+340,Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing.,66,Auto landing in progress.; Make sure the area under the aircraft is safe for landing. Push throttle down to use force landing.
+341,Flight mode changed to P-GPS (Brake).,79,Flight mode changed to P-GPS (Brake).
+342,Gimbal auto check failed.; Motors starting.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; Data Recorder File Index is 88.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 500 m (1640 ft).; Flight mode changed to Starting Motors.,116,Gimbal auto check failed.; Motors starting.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; Data Recorder File Index is 88.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 500 m (1640 ft).; Flight mode changed to Starting Motors.
+343,Flight mode changed to Manual Takeoff.,207,Flight mode changed to Manual Takeoff.
+344,Gimbal auto check failed.,232,Gimbal auto check failed.
+345,Flight mode changed to P-GPS (Brake).,79,Flight mode changed to P-GPS (Brake).
+346,Gimbal auto check failed.; Home point updated. RTH altitude adjusted to 100m.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.,222,Gimbal auto check failed.; Home point updated. RTH altitude adjusted to 100m.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.
+347,Gimbal auto check failed.,232,Gimbal auto check failed.
+348,Gimbal auto check failed.; Image transmission signal weak.,143,Gimbal auto check failed.; Image transmission signal weak.
+349,Image transmission signal weak.; Aircraft braking.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,312,Image transmission signal weak.; Aircraft braking.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+350,RC signal lost.,6,RC signal lost.
+351,RC signal lost.; Aircraft braking.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.,312,RC signal lost.; Aircraft braking.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.
+352,Downlink Lost.,120,Downlink Lost.
+353,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Downlink Restored (after 0m 5.2s).; Flight mode changed to Go Home.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Downlink Restored (after 0m 5.2s).; Flight mode changed to Go Home.
+354,RTH in progress.,163,RTH in progress.
+355,Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.,104,Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.
+356,RC signal weak. Avoid blocking antennas and adjust antenna orientation.,325,RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+357,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.,2,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.
+358,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.; RTH ascending.,2,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.; RTH ascending.
+359,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; RTH ascending.,2,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; RTH ascending.
+360,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; RTH ascending.,2,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; RTH ascending.
+361,Flight mode changed to P-GPS (Brake).,79,Flight mode changed to P-GPS (Brake).
+362,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.,2,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.
+363,Gimbal auto check failed.,232,Gimbal auto check failed.
+364,RC signal lost. Aircraft will follow preset action for lost signal.,125,RC signal lost. Aircraft will follow preset action for lost signal.
+365,RC signal lost.,6,RC signal lost.
+366,Gimbal auto check failed.,232,Gimbal auto check failed.
+367,RC signal weak.,6,RC signal weak.
+368,Gimbal auto check failed.,232,Gimbal auto check failed.
+369,Gimbal auto check failed.,232,Gimbal auto check failed.
+370,Gimbal auto check failed.; Press Brake button to cancel RTH.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; RTH in progress.; Flight mode changed to Go Home.,225,Gimbal auto check failed.; Press Brake button to cancel RTH.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; RTH in progress.; Flight mode changed to Go Home.
+371,RTH ascending.,113,RTH ascending.
+372,Gimbal auto check failed.; Press Brake button to cancel RTH.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; RTH ascending.; RTH in progress.,225,Gimbal auto check failed.; Press Brake button to cancel RTH.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; RTH ascending.; RTH in progress.
+373,Gimbal auto check failed.; Press Brake button to cancel RTH.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; RTH in progress.; RTH ascending.,225,Gimbal auto check failed.; Press Brake button to cancel RTH.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; RTH in progress.; RTH ascending.
+374,Gimbal auto check failed.; Press Brake button to cancel RTH.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; RTH in progress.,225,Gimbal auto check failed.; Press Brake button to cancel RTH.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; RTH in progress.
+375,Gimbal auto check failed.; Press Brake button to cancel RTH.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; RTH in progress.; Auto landing in progress.; Press brake button to cancel landing.; Flight mode changed to Auto Landing.,225,Gimbal auto check failed.; Press Brake button to cancel RTH.; Gimbal stuck. Check whether gimbal lock is removed and make sure gimbal can rotate freely.; RTH in progress.; Auto landing in progress.; Press brake button to cancel landing.; Flight mode changed to Auto Landing.
+376,Motors starting.; Flight mode changed to Starting Motors.,17,Motors starting.; Flight mode changed to Starting Motors.
+377,Compass error.; Compass error. Fly with caution.,62,Compass error.; Compass error. Fly with caution.
+378,Data Recorder File Index is 88.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 500 m (1640 ft).,88,Data Recorder File Index is 88.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 500 m (1640 ft).
+379,Motors starting.; Flight mode changed to Manual Takeoff.,17,Motors starting.; Flight mode changed to Manual Takeoff.
+380,Compass error.,62,Compass error.
+381,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
+382,Home point updated. RTH altitude adjusted to 100m.,48,Home point updated. RTH altitude adjusted to 100m.
+383,Home point updated. RTH altitude adjusted to 100m.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,9,Home point updated. RTH altitude adjusted to 100m.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+384,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+385,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+386,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+387,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+388,Aircraft braking.,177,Aircraft braking.
+389,Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.,125,Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.
+390,RC signal lost.; Aircraft braking.; Gimbal pitch axis endpoint reached.,372,RC signal lost.; Aircraft braking.; Gimbal pitch axis endpoint reached.
+391,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+392,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+393,RC signal lost.,6,RC signal lost.
+394,Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,29,Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+395,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,29,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+396,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.,125,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.
+397,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal lost. Returning to home.; Failsafe RTH.; Flight mode changed to Go Home.,125,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal lost. Returning to home.; Failsafe RTH.; Flight mode changed to Go Home.
+398,Failsafe RTH.,75,Failsafe RTH.
+399,Failsafe RTH.,75,Failsafe RTH.
+400,Failsafe RTH.,75,Failsafe RTH.
+401,Failsafe RTH.,75,Failsafe RTH.
+402,Failsafe RTH.,75,Failsafe RTH.
+403,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH in progress.,8,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH in progress.
+404,RTH ascending.,113,RTH ascending.
+405,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.,8,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.
+406,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.
+407,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.,8,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.
+408,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RTH ascending.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RTH ascending.
+409,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
+410,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RTH ascending.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RTH ascending.
+411,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.
+412,Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.,125,Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.
+413,RC signal lost.; Aircraft braking.,98,RC signal lost.; Aircraft braking.
+414,Aircraft braking.,177,Aircraft braking.
+415,RC signal lost.,6,RC signal lost.
+416,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+417,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+418,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+419,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+420,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+421,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+422,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+423,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+424,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+425,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+426,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+427,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+428,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+429,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+430,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+431,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+432,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+433,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+434,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+435,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+436,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+437,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+438,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+439,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+440,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+441,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+442,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+443,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+444,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+445,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+446,Ambient light too low. Obstacle avoidance unavailable.; Flight mode changed to Confirm Landing.,186,Ambient light too low. Obstacle avoidance unavailable.; Flight mode changed to Confirm Landing.
+447,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+448,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+449,Auto landing in progress.,77,Auto landing in progress.
+450,Auto landing in progress.,77,Auto landing in progress.
+451,Motors starting.; Flight mode changed to Starting Motors.,17,Motors starting.; Flight mode changed to Starting Motors.
+452,Compass error.; Compass error. Fly with caution.,62,Compass error.; Compass error. Fly with caution.
+453,Data Recorder File Index is 88.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 500 m (1640 ft).,88,Data Recorder File Index is 88.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 500 m (1640 ft).
+454,Motors starting.,97,Motors starting.
+455,Compass error.,62,Compass error.
+456,Flight mode changed to Manual Takeoff.,207,Flight mode changed to Manual Takeoff.
+457,Home point updated. RTH altitude adjusted to 100m.; Flight mode changed to P-GPS.,48,Home point updated. RTH altitude adjusted to 100m.; Flight mode changed to P-GPS.
+458,Home point updated. RTH altitude adjusted to 100m.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,9,Home point updated. RTH altitude adjusted to 100m.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+459,Ambient light too low. Obstacle avoidance unavailable.; Home point updated. RTH altitude adjusted to 100m.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,9,Ambient light too low. Obstacle avoidance unavailable.; Home point updated. RTH altitude adjusted to 100m.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+460,Ambient light too low. Obstacle avoidance unavailable.; Home point updated. RTH altitude adjusted to 100m.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,9,Ambient light too low. Obstacle avoidance unavailable.; Home point updated. RTH altitude adjusted to 100m.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+461,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+462,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+463,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+464,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+465,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+466,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+467,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+468,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+469,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+470,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+471,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+472,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+473,Low battery. Auto RTH in 9 s. Press the start/stop button to cancel.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,53,Low battery. Auto RTH in 9 s. Press the start/stop button to cancel.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+474,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 9 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,53,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 9 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+475,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 8 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,53,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 8 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+476,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 8 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,53,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 8 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+477,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 7 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,53,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 7 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+478,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 6 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,53,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 6 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+479,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 5 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,53,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 5 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+480,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 4 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,53,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 4 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+481,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 3 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,53,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 3 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+482,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 2 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,53,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 2 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+483,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 1 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,53,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 1 s. Press the start/stop button to cancel.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+484,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 1 s. Press the start/stop button to cancel.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,53,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 1 s. Press the start/stop button to cancel.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+485,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 1 s. Press the start/stop button to cancel.; Remaining battery only enough for RTH. Aircraft returning.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Low battery RTH.; Flight mode changed to Go Home.,53,Ambient light too low. Obstacle avoidance unavailable.; Low battery. Auto RTH in 1 s. Press the start/stop button to cancel.; Remaining battery only enough for RTH. Aircraft returning.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Low battery RTH.; Flight mode changed to Go Home.
+486,Low battery RTH.; Low battery. Auto RTH in 1 s. Press the start/stop button to cancel.; Remaining battery only enough for RTH. Aircraft returning.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,53,Low battery RTH.; Low battery. Auto RTH in 1 s. Press the start/stop button to cancel.; Remaining battery only enough for RTH. Aircraft returning.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+487,Press Brake button to cancel RTH.,201,Press Brake button to cancel RTH.
+488,Low battery RTH.; Press Brake button to cancel RTH.; Remaining battery only enough for RTH. Aircraft returning.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,53,Low battery RTH.; Press Brake button to cancel RTH.; Remaining battery only enough for RTH. Aircraft returning.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+489,Low battery RTH.; Press Brake button to cancel RTH.; Remaining battery only enough for RTH. Aircraft returning.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; RTH ascending.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,53,Low battery RTH.; Press Brake button to cancel RTH.; Remaining battery only enough for RTH. Aircraft returning.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; RTH ascending.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+490,Controller triggered aircraft to descend. Auto RTH canceled.,71,Controller triggered aircraft to descend. Auto RTH canceled.
+491,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
+492,Low battery RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; Remaining battery only enough for RTH. Aircraft returning.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; RTH ascending.,213,Low battery RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; Remaining battery only enough for RTH. Aircraft returning.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; RTH ascending.
+493,Low battery RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; RTH ascending.,213,Low battery RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; RTH ascending.
+494,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+495,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+496,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+497,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+498,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+499,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+500,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+501,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+502,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+503,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+504,Ambient light too low. Obstacle avoidance unavailable.; Flight mode changed to Confirm Landing.,186,Ambient light too low. Obstacle avoidance unavailable.; Flight mode changed to Confirm Landing.
+505,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+506,Ambient light too low. Obstacle avoidance unavailable.; Auto landing in progress.,34,Ambient light too low. Obstacle avoidance unavailable.; Auto landing in progress.
+507,Auto landing in progress.,77,Auto landing in progress.
+508,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
+509,Motors starting.; Flight mode changed to Starting Motors.,17,Motors starting.; Flight mode changed to Starting Motors.
+510,Data Recorder File Index is 89.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 500 m (1640 ft).,88,Data Recorder File Index is 89.; Set Return to Home (RTH) altitude to 100 m (328 ft).; Set maximum flight altitude to 500 m (1640 ft).
+511,Flight mode changed to Manual Takeoff.,207,Flight mode changed to Manual Takeoff.
+512,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
+513,Home point updated. RTH altitude adjusted to 100m.,48,Home point updated. RTH altitude adjusted to 100m.
+514,Home point updated. RTH altitude adjusted to 100m.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,9,Home point updated. RTH altitude adjusted to 100m.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+515,Ambient light too low. Obstacle avoidance unavailable.; Home point updated. RTH altitude adjusted to 100m.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,9,Ambient light too low. Obstacle avoidance unavailable.; Home point updated. RTH altitude adjusted to 100m.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+516,Ambient light too low. Obstacle avoidance unavailable.; Home point updated. RTH altitude adjusted to 100m.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,9,Ambient light too low. Obstacle avoidance unavailable.; Home point updated. RTH altitude adjusted to 100m.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+517,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+518,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+519,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+520,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+521,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+522,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+523,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+524,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+525,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+526,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+527,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+528,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+529,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+530,Ambient light too low. Obstacle avoidance unavailable.; RC signal lost.,56,Ambient light too low. Obstacle avoidance unavailable.; RC signal lost.
+531,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Image transmission signal lost.,29,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Image transmission signal weak. Adjust antennas and make sure they are perpendicular to flight direction of aircraft.; Image transmission signal lost.
+532,Downlink Lost.,120,Downlink Lost.
+533,Downlink Restored (after 0m 22.8s).; Flight mode changed to Go Home.,505,Downlink Restored (after 0m 22.8s).; Flight mode changed to Go Home.
+534,Failsafe RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; RC signal lost. Returning to home.; Aircraft and remote controller disconnected.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,58,Failsafe RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; RC signal lost. Returning to home.; Aircraft and remote controller disconnected.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+535,Failsafe RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; RC signal lost. Returning to home.; Aircraft and remote controller disconnected.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; RTH ascending.,58,Failsafe RTH.; Press Brake button to cancel RTH.; No image transmission. Aircraft returning to home.; RC signal lost. Returning to home.; Aircraft and remote controller disconnected.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; RTH ascending.
+536,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; RTH ascending.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; RTH ascending.
+537,Controller triggered aircraft to descend. Auto RTH canceled.,71,Controller triggered aircraft to descend. Auto RTH canceled.
+538,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
+539,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+540,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+541,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+542,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+543,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+544,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+545,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+546,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+547,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+548,Ambient light too low. Obstacle avoidance unavailable.; RC signal weak.,56,Ambient light too low. Obstacle avoidance unavailable.; RC signal weak.
+549,RC signal weak.,6,RC signal weak.
+550,RC signal weak.; RC signal lost.,6,RC signal weak.; RC signal lost.
+551,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,29,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+552,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,29,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+553,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,29,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+554,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.,29,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Forward ambient light too low. Obstacle avoidance unavailable. Fly with caution.
+555,RC signal lost.,6,RC signal lost.
+556,Failsafe RTH.; Flight mode changed to Go Home.,59,Failsafe RTH.; Flight mode changed to Go Home.
+557,Failsafe RTH.,75,Failsafe RTH.
+558,Failsafe RTH.,75,Failsafe RTH.
+559,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Original route RTH.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; Original route RTH.
+560,RTH in progress.,163,RTH in progress.
+561,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.; RTH in progress.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.; RTH in progress.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+562,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; RTH ascending.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.; Downward ambient light too low. Obstacle avoidance unavailable. Fly with caution.; RTH ascending.
+563,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.; RTH ascending.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.; RTH ascending.
+564,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.; RTH ascending.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.; RTH ascending.
+565,Failsafe RTH.,75,Failsafe RTH.
+566,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.,224,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.; Controller triggered aircraft to descend. Auto RTH canceled.
+567,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
+568,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.
+569,RC signal weak.,6,RC signal weak.
+570,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.,125,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.
+571,Failsafe RTH.; Flight mode changed to Go Home.,59,Failsafe RTH.; Flight mode changed to Go Home.
+572,Failsafe RTH.,75,Failsafe RTH.
+573,Failsafe RTH.,75,Failsafe RTH.
+574,Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Original route RTH.,8,Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Original route RTH.
+575,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Original route RTH.; RTH in progress.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; Original route RTH.; RTH in progress.
+576,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.
+577,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.; RTH ascending.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.; RTH ascending.
+578,Controller triggered aircraft to descend. Auto RTH canceled.,71,Controller triggered aircraft to descend. Auto RTH canceled.
+579,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
+580,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+581,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+582,RC signal weak.; RC signal lost.,6,RC signal weak.; RC signal lost.
+583,RC signal lost.; RC signal weak.,6,RC signal lost.; RC signal weak.
+584,RC signal weak.,6,RC signal weak.
+585,RC signal lost.,6,RC signal lost.
+586,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.,125,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.
+587,RC signal lost.; Aircraft braking.,98,RC signal lost.; Aircraft braking.
+588,RC signal weak.,6,RC signal weak.
+589,RC signal weak.,6,RC signal weak.
+590,RC signal lost.,6,RC signal lost.
+591,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.,125,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.
+592,RC signal lost.; Aircraft braking.,98,RC signal lost.; Aircraft braking.
+593,RC signal lost.,6,RC signal lost.
+594,RC signal lost.; Failsafe RTH.; Flight mode changed to Go Home.,404,RC signal lost.; Failsafe RTH.; Flight mode changed to Go Home.
+595,Press Brake button to cancel RTH.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal lost. Returning to home.; Original route RTH.,8,Press Brake button to cancel RTH.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal lost. Returning to home.; Original route RTH.
+596,Failsafe RTH.,75,Failsafe RTH.
+597,RTH in progress.,163,RTH in progress.
+598,RC signal weak. Avoid blocking antennas and adjust antenna orientation.,325,RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+599,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.; RTH ascending.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.; RTH ascending.
+600,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.; RTH ascending.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.; RTH ascending.
+601,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
+602,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.
+603,RC signal lost. Aircraft will follow preset action for lost signal.,125,RC signal lost. Aircraft will follow preset action for lost signal.
+604,Aircraft braking.,177,Aircraft braking.
+605,Image transmission signal weak.,234,Image transmission signal weak.
+606,Downlink Lost.,120,Downlink Lost.
+607,Downlink Restored (after 0m 16s).; Flight mode changed to Go Home.,505,Downlink Restored (after 0m 16s).; Flight mode changed to Go Home.
+608,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.,8,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.
+609,RTH ascending.,113,RTH ascending.
+610,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.,8,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RTH ascending.
+611,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.
+612,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.
+613,Failsafe RTH.,75,Failsafe RTH.
+614,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RTH ascending.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RTH ascending.
+615,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.
+616,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.
+617,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
+618,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+619,Press Brake button to cancel RTH.,201,Press Brake button to cancel RTH.
+620,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+621,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RC signal lost. Aircraft will follow preset action for lost signal.,27,RC signal weak.; Aircraft braking.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RC signal lost. Aircraft will follow preset action for lost signal.
+622,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal lost. Returning to home.; Failsafe RTH.; Flight mode changed to Go Home.,125,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal lost. Returning to home.; Failsafe RTH.; Flight mode changed to Go Home.
+623,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.,8,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; Original route RTH.
+624,RTH in progress.,163,RTH in progress.
+625,RC signal weak. Avoid blocking antennas and adjust antenna orientation.,325,RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+626,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.
+627,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.,58,Failsafe RTH.; Press Brake button to cancel RTH.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH in progress.
+628,RC signal weak. Avoid blocking antennas and adjust antenna orientation.,325,RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+629,RTH ascending.,113,RTH ascending.
+630,Controller triggered aircraft to descend. Auto RTH canceled.,71,Controller triggered aircraft to descend. Auto RTH canceled.
+631,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
+632,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.,224,Failsafe RTH.; Controller triggered aircraft to descend. Auto RTH canceled.; RC signal lost. Returning to home.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.; RTH ascending.
+633,Aircraft braking.,177,Aircraft braking.
+634,Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.,125,Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.
+635,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.,27,RC signal lost.; Aircraft braking.; RC signal lost. Aircraft will follow preset action for lost signal.; RC signal weak. Avoid blocking antennas and adjust antenna orientation.
+636,RC signal weak.,6,RC signal weak.
+637,RC signal weak.,6,RC signal weak.
+638,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+639,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+640,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+641,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+642,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+643,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+644,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+645,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+646,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+647,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+648,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+649,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+650,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+651,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+652,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+653,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+654,Ambient light too low. Obstacle avoidance unavailable.; Flight mode changed to Confirm Landing.,186,Ambient light too low. Obstacle avoidance unavailable.; Flight mode changed to Confirm Landing.
+655,Ambient light too low. Obstacle avoidance unavailable.,34,Ambient light too low. Obstacle avoidance unavailable.
+656,Auto landing in progress.,77,Auto landing in progress.
+657,Auto landing in progress.,77,Auto landing in progress.
+658,Flight mode changed to P-GPS.,79,Flight mode changed to P-GPS.
