@@ -45,7 +45,7 @@ def get_features(dataset, embedding, device, normalize_embeddings=True):
     elif str(embedding).startswith('all'):
         embedding_model = SentenceTransformer(embedding)
         corpus_embeddings = embedding_model.encode(corpus, normalize_embeddings=normalize_embeddings)
-    elif str(embedding).startswith('Multi') or embedding_tokens[1] == 'loso':
+    elif str(embedding).startswith('Multi') or embedding_tokens[1] == 'loso' or str(embedding).startswith('Drone'):
         embedding_model = SentenceTransformer(f'swardiantara/{embedding}')
         corpus_embeddings = embedding_model.encode(corpus, normalize_embeddings=normalize_embeddings)
     elif embedding == 'drone-sbert':

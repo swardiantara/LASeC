@@ -107,8 +107,8 @@ def main():
     
     train_started_at = datetime.datetime.now()
     if args.dataset_type == 'sample':
-        if args.dataset == 'Drone':
-            dataset = pd.read_csv(os.path.join('dataset', 'Drone_584.log_structured.csv')).sort_values(by='Content', ascending=sample_order).reset_index(drop=True)
+        if str(args.dataset).startswith('Drone'):
+            dataset = pd.read_csv(os.path.join('dataset', f'{args.dataset}.log_structured.csv')).sort_values(by='Content', ascending=sample_order).reset_index(drop=True)
             # dataset.rename(columns = {'Content': 'message', 'EventId': 'cluster_id'}, inplace = True)
             # labels_true = dataset['cluster_id'].to_list()
         elif args.dataset == 'DroneOvs':
