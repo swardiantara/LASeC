@@ -16,12 +16,12 @@ parser.add_argument('--output_dir', type=str, default='embeddings',
                     help="Folder to store the fine-tuned embedding models. Default: `embeddings`")
 parser.add_argument('--initial_model_path', default='all-MiniLM-L6-v2',
                     help="Initial model_name_or_path. Default: `all-MiniLM-L6-v2`")
-parser.add_argument('--sampling_strategy', choices=['random', 'distance'], default='distance', 
+parser.add_argument('--sampling_strategy', choices=['random', 'distance'], default='random', 
                     help="Sampling strategy to select `k` positive samples. Default: `random`")
 parser.add_argument('--dataset', default='MultiSource',
-                    help="Dataset to use for fine-tuning. Default=`Drone`")
+                    help="Dataset to use for fine-tuning. Default=`MultiSource`")
 parser.add_argument('--k', type=int, default=3,
-                    help="Number of samples to be paired with their template to construct positive pairs. Default: `10`")
+                    help="Number of samples to be paired with their template to construct positive pairs. Default: `3`")
 parser.add_argument('--template_portion', type=str, choices=['full', 'partial', 'loso'], default='full',
                     help="The portion of unique templates to use for fine-tuning. Default: `full` (use all templates)")
 parser.add_argument('--margin', type=float, default=0.5,
@@ -40,11 +40,11 @@ def main():
     set_seed(args.seed)
     
     if args.dataset == 'Drone':
-        filename = "Drone_584.log_structured.csv"
+        file_path = os.path.join("dataset_preparation", "train.csv")
     else:
-        filename = f"MultiSource_2k.log_structured.csv"
+        file_path = os.path.join('dataset', "MultiSource_2k.log_structured.csv")
     
-    dataset = pd.read_csv(os.path.join('dataset', filename))
+    dataset = pd.read_csv(file_path)
     dataset.drop_duplicates(subset=['Content', 'EventTemplate'], inplace=True)
 
     # Initialize and run fine-tuning
